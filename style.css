@@ -1,0 +1,32 @@
+/*
+#FABAA2
+#DBACA7
+#F0547C
+#DB95D0
+#D552FF
+*/
+
+header {
+    display: flex;
+    align-items: center;
+    background-color:#FABAA2 ;
+    color: white ;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+ }
+
+nav a {
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #DB95D0;
+}
+
+
