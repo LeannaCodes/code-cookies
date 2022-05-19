@@ -19,3 +19,21 @@ function getVegetable() {
     return document.write(myVegetable)
 }
 
+function guessMyAge() {
+    let answer;
+
+
+    do{
+    
+    answer = prompt("How old is Leanna? Guess a number between 20-30")
+
+    if(answer!=27) {
+        alert("Nope, you're wrong...");
+    }
+    else {
+        alert("Well done, you didn't offend me.")
+    }
+    
+    }while (answer != 27)
+}
+guessMyAge();
