@@ -37,3 +37,13 @@ function guessMyAge() {
     }while (answer != 27)
 }
 guessMyAge();
+
+function getRating() {
+    let output = "";
+    let rating = prompt("How awesome is Leanna? Please rate 1-5");
+
+    for (let i = 0; i < rating; i++) {
+        output += "<img class='cat-face' src='/cat-face.png' />" ;
+    }
+    return document.write(output)
+}
