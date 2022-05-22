@@ -12,6 +12,12 @@ header {
     align-items: center;
     background-color:#FABAA2 ;
     color: white ;
+    padding: 20 px ;
+}
+
+img { 
+    width: 100%;
+    height: auto;
 }
 
 nav ul {
@@ -30,6 +36,10 @@ nav a:hover {
     color: #DB95D0;
 }
 
+main {
+    width: 90%;
+    margin: 0 auto;
+}
 .rating {
     display: flex;
 }

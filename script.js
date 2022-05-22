@@ -34,7 +34,7 @@ function guessMyAge() {
         alert("Well done, you didn't offend me.")
     }
     
-    }while (answer != 27)
+    }while (answer != 24)
 }
 guessMyAge();
 
